@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium';
+}   
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 97, 97);
+    border: 15px solid rgb(43, 186, 160);
+    border-radius: 20px;
+    padding: 30px;
+    height: 50vh;
+    max-width: 50%;
+}
+#timer{
+    font-weight: bold;
+    font-size: 4rem;
+}
+button{
+    color: rgb(240, 241, 242);
+    background-color: rgb(24, 24, 24);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+h2{
+    margin: 20px;
+}
